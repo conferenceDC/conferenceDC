@@ -1,12 +1,14 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: beige;
+    color: darkviolet;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
 }
 
 nav {
-    background-color: #333;
+    width: 100%;
+    background-color: #4B0082; /* Couleur violet foncé pour la barre de navigation */
     overflow: hidden;
 }
 
@@ -15,10 +17,12 @@ nav ul {
     margin: 0;
     padding: 0;
     display: flex;
+    flex-direction: column; /* Disposition verticale des éléments */
+    align-items: center; /* Centre les éléments horizontalement */
 }
 
 nav ul li {
-    flex: 1;
+    width: 100%;
 }
 
 nav ul li a {
@@ -27,12 +31,13 @@ nav ul li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    border-bottom: 1px solid #555; /* Ajoute une bordure pour séparer les éléments */
 }
 
 nav ul li a:hover {
-    background-color: #111;
+    background-color: #5F9EA0; /* Couleur de survol */
 }
 
 h1 {
-    color: #333;
+    color: darkviolet;
 }
